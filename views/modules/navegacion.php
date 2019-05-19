@@ -1,7 +1,4 @@
-<?php
-session_start();
-if(!$_SESSION["validar"]){ ?>
-	<nav>
+<nav>
 	<ul>
 		<li><a href="index.php?action=registro">Registro Users</a></li>
 		<li><a href="index.php?action=registroprod">Registro Productos</a></li>
@@ -14,4 +11,3 @@ if(!$_SESSION["validar"]){ ?>
 		<li><a href="index.php?action=salir">Salir</a></li>
 	</ul>
 </nav>
-<?php } ?>

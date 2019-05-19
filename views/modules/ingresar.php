@@ -6,9 +6,9 @@
 
 		<input type="password" placeholder="Contraseña" name="passwordIngreso" required>
 
-		<input type="submit" value="Enviar">
+		
 
-		<input type="button" class="button_active" onclick="location.href='views/modules/usuarios.php';" />
+		<input type="button" class="button_active" onclick="location.href='index.php?action=registro';" />
 
 	</form>
 
