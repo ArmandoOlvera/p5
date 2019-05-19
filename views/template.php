@@ -88,17 +88,14 @@
 
 <?php include "modules/navegacion.php"; ?>
 
-
-<section>
-
+ 
 <?php 
 
 $mvc = new MvcController();
 $mvc -> enlacesPaginasController();
 
  ?>
-
-</section>
+ 
 	
 </body>
 
