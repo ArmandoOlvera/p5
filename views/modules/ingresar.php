@@ -6,12 +6,14 @@
 
 		<input type="password" placeholder="Contraseña" name="passwordIngreso" required>
 
-		<input type="button" class="button_active" onclick="location.href='usuarios.php';" />
+		<input type="submit" value="Enviar">
+
+		<input type="button" class="button_active" onclick="location.href='views/modules/usuarios.php';" />
 
 	</form>
 
 <?php
-
+//<input type="button" class="button_active" onclick="location.href='views/modules/usuarios.php';" />
 $ingreso = new MvcController();
 $ingreso -> ingresoUsuarioController();
 
