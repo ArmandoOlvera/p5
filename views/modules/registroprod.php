@@ -1,16 +1,4 @@
-<?php
-
-session_start();
-
-if(!$_SESSION["validar"]){
-
-	header("location:index.php?action=ingresar");
-
-	exit();
-
-}
-
-?>
+ 
 
 <h1>REGISTRO DE PRODUCTOS</h1>
  
@@ -20,7 +8,7 @@ if(!$_SESSION["validar"]){
 
 	<input type="text" placeholder="Precio Sin decimales" name="precioRegistro" required> 
 
-	<input type="submit" value="Enviar">
+	<input type="button" class="button_active" onclick="location.href='usuarios.php';" />
 
 </form>
 
@@ -31,7 +19,7 @@ $registro -> registroProductoController();
 
 if(isset($_GET["action"])){
 
-	if($_GET["action"] == "registroprod"){
+	if($_GET["action"] == "registroprodK"){
 
 		echo "Registro Exitoso";
 	
