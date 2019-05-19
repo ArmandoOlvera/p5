@@ -8,7 +8,7 @@
 
 	<input type="text" placeholder="Precio Sin decimales" name="precioRegistro" required> 
 
-	<input type="button" class="button_active" onclick="location.href='usuarios.php';" />
+	<input type="submit" value="Enviar">
 
 </form>
 

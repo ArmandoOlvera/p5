@@ -1,4 +1,7 @@
-<nav>
+<?php
+session_start();
+if(!$_SESSION["validar"]){ ?>
+	<nav>
 	<ul>
 		<li><a href="index.php?action=registro">Registro Users</a></li>
 		<li><a href="index.php?action=registroprod">Registro Productos</a></li>
@@ -11,3 +14,4 @@
 		<li><a href="index.php?action=salir">Salir</a></li>
 	</ul>
 </nav>
+<?php } ?>
